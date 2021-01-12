@@ -16,7 +16,7 @@ int main ()
 	printf ("\nDiameter is %f, and height is %f\n", diameter, height);
 	radius = diameter / 2;
 	//Surface Area of a Cylinder is 2PIr^2 + 2PIrh
-	printf(".. calculating pleas wait .. \n");
+	printf(".. calculating please wait .. \n");
 	surfaceArea = (2 * PI * (radius * radius)) + (2 * PI * radius * height);
 	printf ("The surface area of your cylinder is %.3f\n", surfaceArea);
 	
